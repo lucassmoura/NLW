@@ -1,0 +1,649 @@
+/* main */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 580px;
+height: 854px;
+left: 310px;
+top: 32px;
+
+
+
+/* header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 120px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatar */
+
+box-sizing: border-box;
+
+width: 120px;
+height: 120px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 580px;
+height: 702px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* my-games */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 32px 32px;
+gap: 24px;
+
+width: 580px;
+height: 264px;
+
+background: #2A2634;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+width: 257px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Meus jogos */
+
+position: absolute;
+width: 135px;
+height: 38px;
+left: 32px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+letter-spacing: -0.47px;
+
+color: #FFFFFF;
+
+
+
+/* Os games que eu mais curto jogar! */
+
+position: absolute;
+width: 257px;
+height: 26px;
+left: 32px;
+top: 62px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: -0.18px;
+
+/* zinc/400 */
+color: #A1A1AA;
+
+
+
+/* items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 302px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 1 */
+
+width: 90px;
+height: 120px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 5 */
+
+width: 90px;
+height: 120px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 7 */
+
+width: 90px;
+height: 120px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* canais */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 32px 32px;
+gap: 24px;
+
+width: 580px;
+height: 214px;
+
+background: #2A2634;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+width: 341px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Canais e streamers */
+
+position: absolute;
+width: 224px;
+height: 38px;
+left: 32px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+letter-spacing: -0.47px;
+
+color: #FFFFFF;
+
+
+
+/* Lista de canais e transmissões que não perco! */
+
+position: absolute;
+width: 341px;
+height: 26px;
+left: 32px;
+top: 62px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: -0.18px;
+
+/* zinc/400 */
+color: #A1A1AA;
+
+
+
+/* items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 328px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 8 */
+
+box-sizing: border-box;
+
+width: 70px;
+height: 70px;
+
+background: url(image.png);
+border: 1px solid #443E54;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 9 */
+
+box-sizing: border-box;
+
+width: 70px;
+height: 70px;
+
+background: url(image.png);
+border: 1px solid #443E54;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 10 */
+
+box-sizing: border-box;
+
+width: 70px;
+height: 70px;
+
+background: url(image.png);
+border: 1px solid #443E54;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* image 11 */
+
+box-sizing: border-box;
+
+width: 70px;
+height: 70px;
+
+background: url(image.png);
+border: 1px solid #443E54;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* redes */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 32px 32px;
+gap: 24px;
+
+width: 580px;
+height: 176px;
+
+background: #2A2634;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+width: 252px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Minhas redes */
+
+position: absolute;
+width: 157px;
+height: 38px;
+left: 32px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+letter-spacing: -0.47px;
+
+color: #FFFFFF;
+
+
+
+/* Se conecte comigo agora mesmo! */
+
+position: absolute;
+width: 252px;
+height: 26px;
+left: 32px;
+top: 62px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: -0.18px;
+
+/* zinc/400 */
+color: #A1A1AA;
+
+
+
+/* items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 177px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* TwitchLogo */
+
+width: 33px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 81.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 2.91%;
+right: 84.27%;
+top: 15.62%;
+bottom: 6.25%;
+
+border: 2px solid #9A35FF;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.24%;
+right: 87.76%;
+top: 34.38%;
+bottom: 46.88%;
+
+border: 2px solid #9A35FF;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.74%;
+right: 91.26%;
+top: 34.38%;
+bottom: 46.88%;
+
+border: 2px solid #9A35FF;
+
+
+/* TwitterLogo */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.68%;
+right: 54.24%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 30.33%;
+right: 55.37%;
+top: 18.75%;
+bottom: 12.5%;
+
+border: 2px solid #2871FF;
+
+
+/* InstagramLogo */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.8%;
+right: 27.12%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 61.02%;
+right: 33.33%;
+top: 34.38%;
+bottom: 34.38%;
+
+border: 2px solid #FA41FE;
+
+
+/* Vector */
+
+position: absolute;
+left: 57.34%;
+right: 29.66%;
+top: 14.06%;
+bottom: 14.06%;
+
+border: 2px solid #FA41FE;
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: 31.64%;
+top: 25%;
+bottom: 65.62%;
+
+background: #FA41FE;
+
+
+/* YoutubeLogo */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.92%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 89.83%;
+right: 6.78%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 2px solid #F40000;
+
+
+/* Vector */
+
+position: absolute;
+left: 83.62%;
+right: 1.69%;
+top: 18.91%;
+bottom: 18.91%;
+
+border: 2px solid #F40000;
